@@ -16,15 +16,5 @@ public class Main {
     vertx.deployVerticle(new DatabaseVerticle());
 
 
-//    vertx.deployVerticle(new DatabaseVerticle());
-
-
-    //
-    // vertx.deployVerticle(new MainVerticle2());
-
-
-    // vertx.eventBus()
-//      .<JsonObject> consumer("temperature.updates", message -> {
-//        logger.info(">>>{}" + message.body().encodePrettily());
   }
 }
